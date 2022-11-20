@@ -1,42 +1,35 @@
-.clients__header {
+.clients-header {
   margin-bottom: 50px;
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-text-header);
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
-.clients__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.clients {
+  @extend %flex;
   gap: 30px;
-}
+  .clients__item {
+    width: calc((100% - 150px) / 6);
+    height: 92px;
+  }
 
-.clients__item {
-  width: calc((100% - 150px) / 6);
-  height: 92px;
-}
-
-.clients__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  fill: var(--primary-svg-color);
-  border: 1px solid var(--primary-svg-color);
-  border-radius: 4px;
-  transition-property: fill, background-color, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  fill: var(--focus-color);
-  border: 1px solid var(--focus-color);
-  border-radius: 4px;
+  .clients__link {
+    @extend %flex;
+    width: 100%;
+    height: 100%;
+    fill: var(--primary-svg-color);
+    border: 1px solid var(--primary-svg-color);
+    border-radius: 4px;
+    transition-property: fill, background-color, border;
+    @extend %transition;
+    &:hover,
+    &:focus {
+      fill: var(--focus-color);
+      border: 1px solid var(--focus-color);
+      border-radius: 4px;
+    }
+  }
 }

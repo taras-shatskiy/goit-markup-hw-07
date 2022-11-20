@@ -9,18 +9,16 @@
     url(../images/img-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.hero__title {
-  max-width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-
-  color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  .hero__title {
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: var(--primary-white-color);
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-size-text-large);
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 }

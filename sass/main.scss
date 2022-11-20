@@ -1,7 +1,10 @@
-@import './utils/variables';
+@import './utils/placeholders';
 @import './base/fonts';
+@import './utils/utils';
+@import './utils/variables';
+@import './utils/visually-hidden';
+
 @import './components/advantage';
-@import './components/backdrop';
 @import './components/buttons';
 @import './components/clients';
 @import './components/footer';

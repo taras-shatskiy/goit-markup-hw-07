@@ -14,35 +14,33 @@
   <body class="page">
     <header class="header">
       <div class="container">
-        <div class="page-header">
-          <nav class="page-header__nav">
+        <div class="header__page">
+          <nav class="header__nav">
             <a href="./index.html" class="link logo">Web<span class="logo__text">Studio</span></a>
-            <ul class="page-header__list list">
-              <li class="page-header__item">
-                <a href="./index.html" class="page-header__link page-header__link--current"
-                  >Студія</a
-                >
+            <ul class="header__list list">
+              <li class="header__item">
+                <a href="./index.html" class="header__link header__link--current">Студія</a>
+              </li>
+              <li class="header__item">
+                <a href="./portfolio.html" class="header__link">Портфоліо</a>
               </li>
               <li class="page-header__item">
-                <a href="./portfolio.html" class="page-header__link">Портфоліо</a>
-              </li>
-              <li class="page-header__item">
-                <a href="" class="page-header__link">Контакти</a>
+                <a href="" class="header__link">Контакти</a>
               </li>
             </ul>
           </nav>
-          <ul class="contact list">
-            <li class="contact__item">
-              <a href="mailto:info@devstudio.com" class="contact__link">
-                <svg class="contact__icon" width="16px" height="12px">
+          <ul class="header-contact list">
+            <li class="header-contact__item">
+              <a href="mailto:info@devstudio.com" class="header-contact__link">
+                <svg class="header-contact__icon" width="16px" height="12px">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="contact__item">
-              <a href="tel:+380961111111" class="contact__link">
-                <svg class="contact__icon" width="10px" height="16px">
+            <li class="header-contact__item">
+              <a href="tel:+380961111111" class="header-contact__link">
+                <svg class="header-contact__icon" width="10px" height="16px">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -307,10 +305,10 @@
           </ul>
         </div>
       </section>
-      <section class="section clients">
+      <section class="section">
         <div class="container">
-          <h2 class="clients__header">Постійні клієнти</h2>
-          <ul class="list clients__list">
+          <h2 class="clients-header">Постійні клієнти</h2>
+          <ul class="list clients">
             <li class="clients__item">
               <a class="link clients__link" href="">
                 <svg width="106" height="60">
@@ -418,9 +416,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form">
-          <p class="footer-form__title">Підпишіться на розсилку</p>
-          <form class="footer-form__mail" name="footer-form">
+        <div>
+          <p class="form-title">Підпишіться на розсилку</p>
+          <form class="footer-form" name="footer-form">
             <input
               class="footer-form__input"
               id="email-name"
@@ -428,9 +426,9 @@
               name="email-name"
               placeholder="E-mail"
             />
-            <button class="footer-form__button" type="submit">
+            <button class="button-footer" type="submit">
               Підписатися
-              <svg class="footer-form__icon" width="24" height="24">
+              <svg class="button-footer__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -450,33 +448,33 @@
         </div>
         <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
         <form name="contact-form">
-          <label class="contact-form__label" for="person-name">Ім'я</label>
-          <div class="contact-form__control">
-            <input class="contact-form__input" id="person-name" type="text" name="person-name" />
-            <svg class="contact-form__icon" width="18" height="18">
+          <label class="form-label" for="person-name">Ім'я</label>
+          <div class="form-control">
+            <input class="form-control__input" id="person-name" type="text" name="person-name" />
+            <svg class="form-control__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
 
-          <label class="contact-form__label" for="person-phone">Телефон</label>
-          <div class="contact-form__control">
-            <input class="contact-form__input" id="person-phone" type="tel" name="person-phone" />
-            <svg class="contact-form__icon" width="18" height="18">
+          <label class="form-label" for="person-phone">Телефон</label>
+          <div class="form-control">
+            <input class="form-control__input" id="person-phone" type="tel" name="person-phone" />
+            <svg class="form-control__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
 
-          <label class="contact-form__label" for="person-mail">Пошта</label>
-          <div class="contact-form__control">
-            <input class="contact-form__input" id="person-mail" type="email" name="person-mail" />
-            <svg class="contact-form__icon" width="18" height="18">
+          <label class="form-label" for="person-mail">Пошта</label>
+          <div class="form-control">
+            <input class="form-control__input" id="person-mail" type="email" name="person-mail" />
+            <svg class="form-control__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>
           </div>
 
-          <label class="contact-form__label" for="person-comment">Коментар</label>
+          <label class="form-label" for="person-comment">Коментар</label>
           <textarea
-            class="contact-form__textarea"
+            class="form-textarea"
             id="person-comment"
             name="person-comment"
             placeholder="Введіть текст"
@@ -495,7 +493,7 @@
             Погоджуюся з розсилкою та приймаю
             <a class="link checkbox__label-link" href="#">Умови договору</a>
           </label>
-          <button class="contact-form__button" type="submit">Відправити</button>
+          <button class="form-button" type="submit">Відправити</button>
         </form>
       </div>
     </div>

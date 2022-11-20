@@ -11,60 +11,21 @@
   --input-border: rgba(33, 33, 33, 0.2);
   --shadow-button-primary: 0px 4px 4px rgba(0, 0, 0, 0.15);
   --button-form-color-hover: #188ce8;
-}
-
-.page {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
-  font-family: 'Roboto', 'Times New Roman', sans-serif;
-  font-size: 14px;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  max-width: 1200px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section {
-  padding: 94px 0;
-}
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  --backdrop-color: rgba(0, 0, 0, 0.2);
+  --button-close-border: rgba(0, 0, 0, 0.1);
+  --border-footer-form-color: rgba(255, 255, 255, 0.3);
+  --header-line-color: #ececec;
+  --font-family-logo: 'Raleway';
+  --font-weight-normal: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+  --font-size-modal-text: 12px;
+  --font-size-text-primary: 14px;
+  --font-size-text-secondary: 16px;
+  --font-size-card-content: 18px;
+  --font-size-modal: 20px;
+  --font-size-logo: 26px;
+  --font-size-text-header: 36px;
+  --font-size-text-large: 44px;
 }
