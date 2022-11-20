@@ -1,22 +1,3 @@
-.work .work__title, .team .team__social-link, .team .team__social-list, .checkbox, .footer-social .footer-social__link, .clients .clients__link, .clients, .button-close .button-close__style, .advantage .advantage__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.team .team__social-link, .card .card__overlay, .portfolio .portfolio__link, .checkbox .checkbox__icon, .form-textarea, .form-control .form-control__icon, .form-control .form-control__input, .backdrop, .header-contact .header-contact__link, .header .header__link, .footer-social .footer-social__link, .footer .footer__contact-link, .clients .clients__link, .form-button, .button-close .button-close__style, .filter .filter__button, .button-primary {
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
@@ -155,6 +136,25 @@ img {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
+}
+
+.work .work__title, .team .team__social-link, .team .team__social-list, .checkbox, .footer-social .footer-social__link, .clients .clients__link, .clients, .button-close .button-close__style, .advantage .advantage__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team .team__social-link, .card .card__overlay, .portfolio .portfolio__link, .checkbox .checkbox__icon, .form-textarea, .form-control .form-control__icon, .form-control .form-control__input, .backdrop, .header-contact .header-contact__link, .header .header__link, .footer-social .footer-social__link, .footer .footer__contact-link, .clients .clients__link, .form-button, .button-close .button-close__style, .filter .filter__button, .button-primary {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .advantage {
