@@ -1,11 +1,14 @@
 @import './base/fonts';
+
 @import './utils/utils';
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/placeholders';
+
 @import './components/advantage';
 @import './components/buttons';
 @import './components/clients';
+@import './components/container';
 @import './components/footer';
 @import './components/header';
 @import './components/hero';
@@ -14,3 +17,4 @@
 @import './components/portfolio';
 @import './components/team';
 @import './components/work';
+@import './components/section';

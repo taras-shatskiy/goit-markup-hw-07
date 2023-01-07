@@ -10,11 +10,11 @@
     align-items: center;
     gap: 93px;
   }
-  .header__list {
+  .site-nav {
     display: flex;
     gap: 50px;
   }
-  .header__link {
+  .site-nav__link {
     position: relative;
     display: block;
     padding: 32px 0;
@@ -31,7 +31,7 @@
     }
   }
 
-  .header__link--current {
+  .site-nav__link--current {
     color: var(--focus-color);
     &::after {
       position: absolute;
